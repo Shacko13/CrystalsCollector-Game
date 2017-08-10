@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background: url(../images/background.png)
+
+}
+
+.container {
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+
+header {
+	background-color: orange;
+	width: 400px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px 8px 10px 8px;
+}
+
+.rules {
+	background-color: white;
+	width: 400px;
+	height: 275px;
+	margin: 20px auto 8px;
+	padding: 10px ;
+	text-align: left;
+}
+
+p {
+	color: green;
+	font-weight: bold;
+}
+
+.randomnumber-score {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin: 0 auto 5px;
+
+}
+
+.random-number-generator {
+	display: block;
+	float: left;
+	background-color: mediumaquamarine;
+	color: purple;
+	font-size: 50px;
+	width: 200px;
+	height: 100px;
+}
+
+#random-number {
+	padding: 12px 0px 0px 10px;
+}
+
+.scoreboard {
+	display: block;
+	background-color: turquoise;
+	width: 200px;
+	height: 100px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.crystals {
+	display: block;
+	width: 392px;
+	height: 105px;
+	margin: auto;
+}
+
+.krystal-restaurant {
+	width: 90px;
+	height: 90px;
+}
+
+.billy-crystal {
+	width: 90px;
+	height: 90px;
+}
+
+.cristal-champagne {
+	width: 90px;
+	height: 90px;
+}
+
+.crystal-gayle {
+	width: 90px;
+	height: 90px;
+}
+
+.user-score {
+	background-color: seagreen;
+	clear: both;
+	width: 200px;
+	height: 100px;
+	margin: 5px auto;
+	float: left;
+}
+
+.user-score h2 {
+	color: white;
+	font-size: 20px;
+	padding: 5px 10px 5px 10px;
+}
+
+#score-counter {
+	color: white;
+	font-size: 50px;
+	padding-left: 25px;
+	padding-top: 20px;
+}

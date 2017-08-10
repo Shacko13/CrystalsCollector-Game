@@ -1,1 +1,78 @@
-<h1>week-4-game</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1>
+    <meta charset="UTF-8">
+	<title>CrystalsCollector Game</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="header">
+	
+	  <header>
+	    <h1>CrystalsCollector!</h1>
+	  </header>
+
+    <div class="rules">
+	  <p>You will be given a random number at the start of the game.</p><br />
+	  <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p><br />
+	  <p>You win the game by matching your total score to random number, but you lose the game if your total score goes above the random number.</p><br />
+	  <p>The value of each crystal is hidden from you until you click on it.</p><br />
+	  <p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<div class="randomnumber-score">
+
+	  <div class="random-number-generator">
+
+	  	<span id="random-number">60</span>
+
+	  </div>
+
+	</div>
+	
+	<div class="scoreboard">
+
+	    <div class="wins-losses"></div>
+
+	      <p>WINS:  <span id="wins-counter">0</span></p>
+	      <p>LOSSES:  <span id="losses-counter">0</span></p>
+
+	    </div>  	
+    
+    </div>
+
+    <div class="crystals">
+
+    	<img class="krystal-restaurant" src="assets/images/krystal3.jpg" alt="Krystal restaurant">
+    	<img class="billy-crystal" src="assets/images/billycrystal.jpg" alt="Billy Crystal">
+    	<img class="cristal-champagne" src="assets/images/cristal.jpg" alt="Cristal Champagne bottle">
+    	<img class="crystal-gayle" src="assets/images/crystalgayle.jpg" alt="Crystal Gayle">
+
+    </div>
+
+    <div class="user-score">
+
+      <h2>Your total score is:</h2>
+
+        <span id="score-counter"></span>
+
+    </div>
+
+
+
+
+	
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+</html>
