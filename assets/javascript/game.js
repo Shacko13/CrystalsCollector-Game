@@ -43,7 +43,6 @@ function gamePlay(){
 $("#random-number").text(computerChoice);
 
 
-
 $(".krystal-restaurant").on("click", function(){
 	userTotalScore += restaurantChoice;
 	$("#score-counter").text(userTotalScore);
