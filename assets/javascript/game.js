@@ -40,7 +40,7 @@ function gamePlay(){
 
 
 
-$("#random-number").text(computerChoice);
+//$("#random-number").text(computerChoice);
 
 
 $(".krystal-restaurant").on("click", function(){
